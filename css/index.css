@@ -71,7 +71,7 @@
 	padding: .2rem 1rem;
 }
 .nav-link.active, .nav-link:focus {
-	color: #fff;
+    color: #fff;
 }
 .img {
 	padding-left: 5%;
@@ -349,8 +349,8 @@ h2:after {
     font-size: 70px;
 }
 .profile-box {
-    width: 340px;
-    height: 340px;
+    width: 240px;
+    height: 360px;
     background: #fff;
     border-radius: 4px;
     margin-bottom: 30px;
@@ -361,10 +361,10 @@ h2:after {
     margin-bottom: 10%;
 }
 .profile-box img {
-    width: 115px;
-    height: 140px;
+    width: 150px;
+    height: 160px;
     position: absolute;
-    top: 20px;
+    /* top: 20px; */
     right: 20px;
     border-radius: 4px;
     transition: .5s;
@@ -382,9 +382,9 @@ small {
     color: #555;
 }
 .social-box {
-    background: -webkit-Linear-gradient(to Right,#FF5E6E,#FFC272);
-    background: Linear-gradient(to Right,#FF5E6E,#FFC272); 
-    margin: 70px auto 20px;
+    background: -webkit-Linear-gradient(to Right,rgb(183, 252, 183),#FFC272);
+    background: Linear-gradient(to Right,rgb(124, 215, 243),#ece2d5); 
+    margin-top: 150px;
     text-align: center;
     border-radius: 3px;
 }
@@ -407,7 +407,7 @@ small {
 }
 .profile-box:hover {
     background: -webkit-Linear-gradient(to Right,#FF5E6E,#FFC272);
-    background: Linear-gradient(to Right,#FF5E6E,#FFC272); 
+    background: Linear-gradient(to Right,#8ff376,#FFC272); 
 }
 /* End Team */
 
